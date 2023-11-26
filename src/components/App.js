@@ -6,7 +6,7 @@ const App = () => {
   const[inp,setInp]=useState('');
 
   function handleChange(event){
-   if(event.target.value.length<15 && Number.isInteger(event.target.value)){
+   if(event.target.value.length<15){
 
   if(event.target.value.length==1)setInp("("+event.target.value);
     else if(event.target.value.length==4){
